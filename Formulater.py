@@ -17,7 +17,9 @@ numeric_cols = ['Amount Paid', 'Balance']
 data[numeric_cols] = data[numeric_cols].apply(pd.to_numeric, errors='coerce')
 
 #defining Categorical Columns
-categorical_cols = ['Registered By', 'Address Main | Country']
+
+#For the Title column, Maybe we can assingn 1 to anyone who has director in their Title and give extra points for that ?
+categorical_cols = ['[Member Status]','[Memeber Type]', '[Address | Main | Country',]
 for col in categorical_cols:
     data[col].fillna(data[col].mode()[0], inplace=True)
 data['Date Registered'] = pd.to_datetime(data['Date Registered'], errors='coerce')
