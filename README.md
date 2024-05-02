@@ -41,7 +41,7 @@ This Python script reads a GeoJSON file containing zip code boundaries and creat
 - **Marker Customization**: The markers on the map are customized with colors (red or blue) based on the count value, and tooltips are added to display the zip code and count information.
 - **Map Export**: The final map is saved as an HTML file (`filtered_choropleth_map.html`) for easy viewing and sharing.
 
-##Contributors:
+# Contributors:
 - Parag Gupta (Team Lead)
 - Saksham Gupta
 - Linda Jiang
