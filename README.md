@@ -29,7 +29,7 @@ After calculating the engagement scores, the project performs further analysis o
 3. **Top 20% Organizations**: The project identifies the top 20% of organizations based on the average engagement score of their members. A bar plot is generated to visualize these top organizations.
 4. **Organization Counts**: The project calculates the count of occurrences for each organization name in the dataset.
 
-# Zip Code Visualization
+## Zip Code Visualization
 
 This Python script reads a GeoJSON file containing zip code boundaries and creates an interactive choropleth map to visualize the zip code data. The map is centered on the United States and displays zip codes as colored markers based on a count value associated with each zip code.
 
